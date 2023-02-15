@@ -1,9 +1,6 @@
 name: Docker
 
 on:
-  push:
-    paths:
-      - "Dockerfile"
   workflow_dispatch:
 
 jobs:
@@ -25,4 +22,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: kamileecher/mltbot:latest
+          tags: ahad1337/admlb:heroku
