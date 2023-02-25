@@ -22,4 +22,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: ahad1337/admlb:heroku
+          tags: ahad1337/dec:dec
