@@ -1,5 +1,4 @@
-FROM anasty17/mltb:latest
+FROM ahad1337/admlb:heroku
 
-RUN mv /bin/aria2c /bin/sax
-RUN mv /bin/qbittorrent-nox /bin/fux
-RUN mv /bin/ffmpeg /bin/nud
+RUN --mount=type=secret,id=secretxt \
+  cat /run/secrets/secretxt
